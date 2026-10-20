@@ -1,6 +1,6 @@
 # Maintainer: Kay <s0990006@gmail.com>
 pkgname=nautilus-image-converter-reborn-app
-pkgver=0.1.0
+pkgver=0.2.0
 pkgrel=1
 pkgdesc="Standalone app to convert, resize, and rotate images — built with Rust and GTK4"
 arch=('x86_64' 'aarch64')
@@ -8,6 +8,7 @@ url="https://github.com/Kayxue/nautilus-image-converter-reborn-app"
 license=('MIT')
 depends=(
     'gtk4'
+    'libadwaita'  # relm4 "libadwaita" feature
     'libx11'   # gdk4-x11 / xlib
     'wayland'  # gdk4-wayland
 )
