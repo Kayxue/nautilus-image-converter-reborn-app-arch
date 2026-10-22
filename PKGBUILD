@@ -1,6 +1,6 @@
 # Maintainer: Kay <s0990006@gmail.com>
 pkgname=nautilus-image-converter-reborn-app
-pkgver=0.2.0
+pkgver=0.2.2
 pkgrel=1
 pkgdesc="Standalone app to convert, resize, and rotate images — built with Rust and GTK4"
 arch=('x86_64' 'aarch64')
